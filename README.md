@@ -35,7 +35,7 @@
 |---|---|---|
 | Прошивка (ST-LINK, `.hex`) | [`firmware/stend_polar_ssb_v0.0.103.hex`](firmware/stend_polar_ssb_v0.0.103.hex) | 0.0.103 |
 | Прошивка (бинарный образ) | [`firmware/stend_polar_ssb_v0.0.103.bin`](firmware/stend_polar_ssb_v0.0.103.bin) | 0.0.103 |
-| Приложение (Windows, zip) | [`app/TEST_BENCH_EER_SSB_UI_0.0.091.zip`](app/TEST_BENCH_EER_SSB_UI_0.0.091.zip) | 0.0.091 |
+| Приложение (Windows, zip) | [`app/TEST_BENCH_EER_SSB_UI_0.0.092.zip`](app/TEST_BENCH_EER_SSB_UI_0.0.092.zip) | 0.0.092 |
 
 **Как залить прошивку.** Любым программатором ST-LINK (STM32CubeProgrammer,
 ST-LINK Utility): файл `.hex` по адресу `0x08000000`, либо `.bin` туда же.
@@ -302,7 +302,7 @@ CPU целиком примерно на 1 секунду). `def` и `rst` в э
 
 ## Приложение (Windows)
 
-WPF, .NET 8, версия **0.0.091**.
+WPF, .NET 8, версия **0.0.092**.
 Работает через тот же COM-порт: опрос состояния, настройки, CAT-команды.
 
 ![Приложение](Docs/Приложение.png)
