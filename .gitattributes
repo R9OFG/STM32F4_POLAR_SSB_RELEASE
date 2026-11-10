@@ -1,0 +1,9 @@
+* text=auto
+
+# Готовые сборки — не трогать переводами строк
+firmware/*.hex binary
+firmware/*.bin binary
+app/*.zip binary
+Docs/*.pdf binary
+Docs/*.png binary
+Docs/*.jpg binary
